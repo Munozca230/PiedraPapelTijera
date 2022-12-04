@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel o Tijera</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    <header>
+        <h2 class="header_title">Piedra papel o tijera</h2>
+    </header>
+    <main class="main_container">
+        <div class="main_container_card">
+            <div class="main_container_card-title">
+                <img id="img_usuario" src="https://cdn-icons-png.flaticon.com/512/560/560277.png" alt="">
+                <p>Usuario</p>
+                <p id="puntos_usuario">0</p>
+            </div>
+            
+            <div class="main_container_img">
+                <img id="img_vs" src="https://cdn-icons-png.flaticon.com/512/7960/7960356.png" alt="">
+                <p id="resultado">Resultado</p>
+            </div>
+
+            <div class="main_container_card-title">
+                <img id="img_cpu" src="https://cdn-icons-png.flaticon.com/512/3186/3186367.png" alt="">
+                <p>CPU</p>
+                <p id="puntos_cpu">0</p>
+            </div>
+            
+        </div>
+
+        <div class="container_options">
+            <div class="container_options_img">
+                <div class="container_options_option">
+                    <button id="Piedra" class="container_options_button container_options_button1"></button>
+                </div>
+                <div class="container_options_option">
+                <button id="Papel" class="container_options_button container_options_button2"></button>
+                </div>
+                <div class="container_options_option">
+                    <button id="Tijera" class="container_options_button container_options_button3"></button>
+                </div>
+            </div>
+            <div class="instructions">
+                <p>Elige una opción</p>
+            </div>
+        </div>
+
+        <div class="container_button">
+            <button id="Iniciar">Iniciar</button>
+        </div>
+    </main>
+    <script src="juego.js"></script>
+</body>
+</html>
